@@ -1,0 +1,82 @@
+https://react.dev/learn/build-a-react-app-from-scratch
+
+npm create vite@latest my-app -- --template react
+
+cd my-app
+npm install
+npm run dev
+npm run dev --host 172.18.16.1:3000
+npm run dev --host 192.168.100.32
+
+1 Axios para peticiones
+
+https://www.freecodecamp.org/espanol/news/como-usar-axios-con-react/
+
+npm install axios
+
+2 Correr en localhost
+ - Modificar el archivo vite.config.js
+https://stackoverflow.com/questions/76074040/vite-server-is-running-on-127-0-0-1-by-default-instead-of-localhost
+
+
+
+EJEMPLOS
+https://www.freecodecamp.org/espanol/news/react-crud-app-tutorial-como-construir-una-aplicacion-de-administracion-de-libros-en-react-desde-cero/
+
+3.-
+TAILWIND
+https://tailwindcss.com/docs/installation/using-vite
+
+
+ 
+
+npm install tailwindcss @tailwindcss/vite
+
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+@import "tailwindcss";
+
+
+REDUX - Manejador de estado
+
+npm install @reduxjs/toolkit
+
+npm install react-redux
+
+npm install @reduxjs/toolkit react-redux
+
+
+
+https://egghead.io/lessons/typescript-create-a-new-next-js-and-typescript-project
+
+
+https://github.com/nikolovlazar/egghead-beginners-guide-nextjs/tree/main#
+
+Videos para aprender
+
+https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
+
+
+Inciar
+
+https://redux.js.org/tutorials/quick-start
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+
+https://codesandbox.io/p/sandbox/github/reduxjs/redux/tree/master/examples/todos?file=%2Fsrc%2Findex.js%3A16%2C1&from-embed
+
+
+ROUTER
+
+
+NEXT JS
+
+
+
+
+
