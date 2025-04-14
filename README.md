@@ -1,12 +1,71 @@
-# React + Vite
+# React + Vite CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Connection to Laravel Lume (MySQL)
 
-Currently, two official plugins are available:
+## Script
+npm create vite@latest my-app -- --template react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd my-app
 
-## Expanding the ESLint configuration
+npm install
+npm run dev
+npm run dev --host 172.18.16.1:3000
+npm run dev --host 192.168.100.32
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Axios for requests
+
+npm install axios
+https://www.freecodecamp.org/espanol/news/como-usar-axios-con-react/
+
+## Axios for requests
+2 Correr en localhost
+
+## Tailwind
+npm install tailwindcss @tailwindcss/vite
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+@import "tailwindcss";
+
+
+### Documentacion
+
+https://react.dev/learn/build-a-react-app-from-scratch
+
+https://stackoverflow.com/questions/76074040/vite-server-is-running-on-127-0-0-1-by-default-instead-of-localhost
+
+https://www.freecodecamp.org/espanol/news/react-crud-app-tutorial-como-construir-una-aplicacion-de-administracion-de-libros-en-react-desde-cero/
+
+https://tailwindcss.com/docs/installation/using-vite
+
+#### Lo learn
+
+https://egghead.io/lessons/typescript-create-a-new-next-js-and-typescript-project
+
+https://github.com/nikolovlazar/egghead-beginners-guide-nextjs/tree/main#
+
+https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
+
+#### Redux
+https://redux.js.org/tutorials/quick-start
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+
+https://codesandbox.io/p/sandbox/github/reduxjs/redux/tree/master/examples/todos?file=%2Fsrc%2Findex.js%3A16%2C1&from-embed
+
+
+## Redux
+State manager
+
+npm install @reduxjs/toolkit
+npm install react-redux
+npm install @reduxjs/toolkit react-redux
+
+## Router
+## Next js
+
+## Others
+ - Modify vite.config.js file in order to run localhost to IP Address
