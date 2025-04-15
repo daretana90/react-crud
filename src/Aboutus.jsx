@@ -30,7 +30,7 @@ function Aboutus() {
       .post(
         baseUrl + "users",
         {
-          name: "nuevo desde REACT",
+          name: "julian",
           email: "correo@dan.com",
         },
         {
@@ -182,25 +182,27 @@ function Aboutus() {
         {/* <input value={id} /> */}
         <br />
 
-        <table className="table">
-          <thead>
-            <tr>
-              <td>
-                <b>ID</b>
-              </td>
-              <td>
-                <b>NOMBRE</b>
-              </td>
-              <td>
-                <b>CORREO</b>
-              </td>
-              <td>
-                <b>ACCIÓN</b>
-              </td>
-            </tr>
-          </thead>
-          <tbody>{listItems}</tbody>
-        </table>
+        <div className="table">
+          <table>
+            <thead>
+              <tr>
+                <td>
+                  <b>ID </b>
+                </td>
+                <td>
+                  <b>NOMBRE </b>
+                </td>
+                <td>
+                  <b>CORREO </b>
+                </td>
+                <td>
+                  <b>ACCIÓN </b>
+                </td>
+              </tr>
+            </thead>
+            <tbody>{listItems}</tbody>
+          </table>
+        </div>
       </div>
     </>
   );
